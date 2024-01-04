@@ -38,6 +38,11 @@ nexusPublishing {
 
 val publicationName = "maven"
 
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
 publishing {
     configure<PublishingExtension> {
         publications {
@@ -75,5 +80,5 @@ publishing {
 }
 
 signing {
-    sign(publicationName)
+    sign(publishing.publications[publicationName])
 }
