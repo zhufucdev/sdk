@@ -6,7 +6,7 @@ plugins {
     signing
 }
 
-group = "com.zhufucdev.api"
+group = "com.zhufucdev"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -22,6 +22,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(17)
 }
@@ -45,8 +46,8 @@ publishing {
 
                 pom {
                     name = "${project.group}:${project.name}"
-                    description = "Steve's API, Kotlin implementation"
-                    url = "https://github.com/zhufucdev/MotionEmulatorSdk"
+                    description = "Steve's SDK, Kotlin implementation"
+                    url = "https://github.com/zhufucdev/sdk"
                     licenses {
                         license {
                             name = "Apache 2.0"
@@ -63,9 +64,9 @@ publishing {
                         }
                     }
                     scm {
-                        connection = "scm:git@github.com:zhufucdev/MotionEmulatorSdk.git"
-                        developerConnection = "scm:git@github.com:zhufucdev/MotionEmulatorSdk.git"
-                        url = "https://github.com/zhufucdev/MotionEmulatorSdk"
+                        connection = "scm:git@github.com:zhufucdev/sdk.git"
+                        developerConnection = "scm:git@github.com:zhufucdev/sdk.git"
+                        url = "https://github.com/zhufucdev/sdk"
                     }
                 }
             }

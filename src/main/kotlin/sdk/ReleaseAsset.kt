@@ -1,4 +1,4 @@
-package com.zhufucdev.api
+package com.zhufucdev.sdk
 
 import kotlinx.serialization.Serializable
 

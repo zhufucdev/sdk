@@ -13,5 +13,5 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-serialization:1.9.21")
     }
 }
-rootProject.name = "com.zhufucdev.api"
+rootProject.name = "sdk"
 
