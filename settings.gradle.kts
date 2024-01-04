@@ -13,5 +13,6 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-serialization:1.9.21")
     }
 }
-rootProject.name = "sdk"
+
+rootProject.name = "kotlin"
 
