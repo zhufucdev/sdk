@@ -13,6 +13,6 @@ Artifacts are available on maven central.
 
 ```kotlin
 dependenices {
-    implementation("com.zhufucdev.sdk")
+    implementation("com.zhufucdev.sdk:kotlin:1.0.0")
 }
 ```
