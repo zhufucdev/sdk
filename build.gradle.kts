@@ -6,7 +6,7 @@ plugins {
     signing
 }
 
-group = "com.zhufucdev"
+group = "com.zhufucdev.sdk"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -45,7 +45,7 @@ publishing {
                 from(components["java"])
 
                 pom {
-                    name = "${project.group}:${project.name}"
+                    name = "com.zhufucdev.sdk:kotlin"
                     description = "Steve's SDK, Kotlin implementation"
                     url = "https://github.com/zhufucdev/sdk"
                     licenses {
